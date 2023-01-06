@@ -1,0 +1,233 @@
+ #root,body
+ {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+.header
+{
+height: 35%;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    font-size: larger;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+
+}
+.subheader
+{
+
+    height: 18%;
+    display: flex;
+    padding: 5px;
+    font-size: larger;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(236, 137, 16); */
+    width: 100%;
+
+}
+.container
+{
+    height: 600px;
+
+    width: 100%;
+    margin-left: 200px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.section1
+{
+    /* background-color: aquamarine; */
+    width: 20%;
+    height: 30%;
+    display:flex;
+    align-items:center;
+
+
+}
+.hamButton
+{
+    height: 30%;
+    width: 15%;
+
+    /* background-color: blueviolet; */
+}
+.section1>.hamButton>.hamimage{
+    height: 90%;
+    width: 90%;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+
+}
+.logo
+{
+/* background-color: brown; */
+width: 45%;
+height: 30%;
+
+}
+.logoimage
+{
+cursor: pointer;
+    height: 30%;
+    width: 100%;
+    margin-left:6px;
+}
+.section2
+{
+    width: 45%;
+    /* background-color: brown; */
+    padding: 4px;
+
+    
+}
+.SearchBox
+{
+    height: 40px;
+    width:85%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-right-width: 0ch;
+    border-bottom-color:grey;
+    border-top-color: gray;
+    border-color: gray;
+    border-top-color: grey;
+
+}
+.Searchbtn
+{
+    height: 46px;
+    width:10%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left-width: 0ch;
+    cursor: pointer;
+   
+}
+.microphoneimage
+{
+margin-left: 10px;
+    width: 20%;
+    font-size: 30px;
+    /* background-color: aqua; */
+    cursor: pointer;
+}
+.section3
+{
+    width: 10%;
+    /* background-color: rgb(159, 165, 42); */
+    padding: 10px;
+    height: 30%;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-right: 50px;
+
+    
+}
+.Notification
+{
+
+    cursor: pointer;
+    height: 100%;
+}
+.subsection1
+{
+width: 60%;
+background-color: red;
+}
+.subsection2
+{
+    display: flex;
+    width: 50%;
+    /* background-color:blueviolet ; */
+    justify-content:space-evenly;
+    justify-items: left;
+    margin-left: 200px;
+
+}
+
+
+.subheader
+{
+    margin-left: 30px;
+
+/* background-color: black; */
+height: 1px;
+
+}
+.shortsimage
+{
+    height: 20px;
+    width:20px;
+    
+    margin-left: 1px;
+}
+.insidesubheader
+{
+display:flex;
+flex-direction: column;
+font-size: large;
+/* background-color: brown; */
+margin-top: 700px;
+
+
+}
+.insidesubheader1
+{
+    display:flex;
+flex-direction: column;
+font-size: large;
+padding-top: 10px;
+ /* background-color: blue;  */
+margin-top: 60px;
+
+
+}
+.image
+{
+   
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: bisque;
+}
+.youtubebtn
+{
+    background-color: #f3efef;
+    border-color: #9c9999; 
+    height: 30px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 9px;
+
+
+}
+.selectyoutubebtn
+{
+    border-radius: 5px;
+    background-color: rgb(19, 18, 18);
+    border-color: rgb(19, 17, 17); 
+    height: 30px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.videologoimage
+{
+    height: 100px;
+}
+.Singleimage
+{
+    height: 500px;
+    width: 900px;
+}
+
